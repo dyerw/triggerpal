@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  TPLHeaderSearchView.h
 //  Triggerpal
 //
 //  Created by Liam Dyer on 3/17/16.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface TPLHeaderSearchView : UIView
 
 @end
-

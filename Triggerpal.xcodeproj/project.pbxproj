@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		85103F891C9B627800DD3A23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 85103F881C9B627800DD3A23 /* main.m */; };
 		85103F8C1C9B627800DD3A23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 85103F8B1C9B627800DD3A23 /* AppDelegate.m */; };
-		85103F8F1C9B627800DD3A23 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85103F8E1C9B627800DD3A23 /* ViewController.m */; };
-		85103F921C9B627800DD3A23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85103F901C9B627800DD3A23 /* Main.storyboard */; };
 		85103F941C9B627800DD3A23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 85103F931C9B627800DD3A23 /* Assets.xcassets */; };
-		85103F971C9B627800DD3A23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 85103F951C9B627800DD3A23 /* LaunchScreen.storyboard */; };
 		85103FA21C9B627800DD3A23 /* TriggerpalTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85103FA11C9B627800DD3A23 /* TriggerpalTests.m */; };
 		85103FAD1C9B627800DD3A23 /* TriggerpalUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 85103FAC1C9B627800DD3A23 /* TriggerpalUITests.m */; };
+		85103FBD1C9B68D500DD3A23 /* TPLHomeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 85103FBC1C9B68D500DD3A23 /* TPLHomeViewController.m */; };
+		85103FC11C9B714900DD3A23 /* TPLHeaderSearchView.m in Sources */ = {isa = PBXBuildFile; fileRef = 85103FC01C9B714900DD3A23 /* TPLHeaderSearchView.m */; };
+		85103FC81C9B7C0E00DD3A23 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 85103FC71C9B7C0E00DD3A23 /* Default-568h@2x.png */; };
+		85103FCF1C9B7D3A00DD3A23 /* Edmondsans-Medium.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85103FCB1C9B7D3A00DD3A23 /* Edmondsans-Medium.otf */; };
+		85103FD01C9B7D3A00DD3A23 /* Edmondsans-Bold.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85103FCC1C9B7D3A00DD3A23 /* Edmondsans-Bold.otf */; };
+		85103FD11C9B7D3A00DD3A23 /* Edmondsans-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 85103FCD1C9B7D3A00DD3A23 /* Edmondsans-Regular.otf */; };
+		B3E718BE7A93A402AD61ADC0 /* libPods-Triggerpal.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BCE679A61CF9A83CC1A9ECCF /* libPods-Triggerpal.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,11 +43,7 @@
 		85103F881C9B627800DD3A23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		85103F8A1C9B627800DD3A23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		85103F8B1C9B627800DD3A23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		85103F8D1C9B627800DD3A23 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		85103F8E1C9B627800DD3A23 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		85103F911C9B627800DD3A23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		85103F931C9B627800DD3A23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		85103F961C9B627800DD3A23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		85103F981C9B627800DD3A23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		85103F9D1C9B627800DD3A23 /* TriggerpalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriggerpalTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85103FA11C9B627800DD3A23 /* TriggerpalTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TriggerpalTests.m; sourceTree = "<group>"; };
@@ -51,6 +51,18 @@
 		85103FA81C9B627800DD3A23 /* TriggerpalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TriggerpalUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		85103FAC1C9B627800DD3A23 /* TriggerpalUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TriggerpalUITests.m; sourceTree = "<group>"; };
 		85103FAE1C9B627800DD3A23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		85103FBB1C9B68D500DD3A23 /* TPLHomeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPLHomeViewController.h; path = ViewControllers/TPLHomeViewController.h; sourceTree = "<group>"; };
+		85103FBC1C9B68D500DD3A23 /* TPLHomeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPLHomeViewController.m; path = ViewControllers/TPLHomeViewController.m; sourceTree = "<group>"; };
+		85103FBF1C9B714900DD3A23 /* TPLHeaderSearchView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TPLHeaderSearchView.h; path = Views/TPLHeaderSearchView.h; sourceTree = "<group>"; };
+		85103FC01C9B714900DD3A23 /* TPLHeaderSearchView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TPLHeaderSearchView.m; path = Views/TPLHeaderSearchView.m; sourceTree = "<group>"; };
+		85103FC61C9B73E600DD3A23 /* TPLColors.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = TPLColors.h; path = Constants/TPLColors.h; sourceTree = "<group>"; };
+		85103FC71C9B7C0E00DD3A23 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		85103FCB1C9B7D3A00DD3A23 /* Edmondsans-Medium.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Edmondsans-Medium.otf"; path = "../../../Downloads/Edmondsans_Personal_License/Edmondsans-Medium.otf"; sourceTree = "<group>"; };
+		85103FCC1C9B7D3A00DD3A23 /* Edmondsans-Bold.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Edmondsans-Bold.otf"; path = "../../../Downloads/Edmondsans_Personal_License/Edmondsans-Bold.otf"; sourceTree = "<group>"; };
+		85103FCD1C9B7D3A00DD3A23 /* Edmondsans-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "Edmondsans-Regular.otf"; path = "../../../Downloads/Edmondsans_Personal_License/Edmondsans-Regular.otf"; sourceTree = "<group>"; };
+		91FC33FBD3196CE6F14E6ED8 /* Pods-Triggerpal.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Triggerpal.release.xcconfig"; path = "Pods/Target Support Files/Pods-Triggerpal/Pods-Triggerpal.release.xcconfig"; sourceTree = "<group>"; };
+		BCE679A61CF9A83CC1A9ECCF /* libPods-Triggerpal.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Triggerpal.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E8299BFA2182269151160A4E /* Pods-Triggerpal.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Triggerpal.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Triggerpal/Pods-Triggerpal.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B3E718BE7A93A402AD61ADC0 /* libPods-Triggerpal.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,13 +91,33 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		341EB366E15FC57AEB5FDCD5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BCE679A61CF9A83CC1A9ECCF /* libPods-Triggerpal.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8143E2E2BB923142017278A1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8299BFA2182269151160A4E /* Pods-Triggerpal.debug.xcconfig */,
+				91FC33FBD3196CE6F14E6ED8 /* Pods-Triggerpal.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		85103F7B1C9B627800DD3A23 = {
 			isa = PBXGroup;
 			children = (
+				85103FC71C9B7C0E00DD3A23 /* Default-568h@2x.png */,
 				85103F861C9B627800DD3A23 /* Triggerpal */,
 				85103FA01C9B627800DD3A23 /* TriggerpalTests */,
 				85103FAB1C9B627800DD3A23 /* TriggerpalUITests */,
 				85103F851C9B627800DD3A23 /* Products */,
+				8143E2E2BB923142017278A1 /* Pods */,
+				341EB366E15FC57AEB5FDCD5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,13 +134,13 @@
 		85103F861C9B627800DD3A23 /* Triggerpal */ = {
 			isa = PBXGroup;
 			children = (
+				85103FC91C9B7D1800DD3A23 /* Resources */,
+				85103FC21C9B718A00DD3A23 /* Constants */,
+				85103FBE1C9B711900DD3A23 /* Views */,
+				85103FBA1C9B62A000DD3A23 /* ViewControllers */,
 				85103F8A1C9B627800DD3A23 /* AppDelegate.h */,
 				85103F8B1C9B627800DD3A23 /* AppDelegate.m */,
-				85103F8D1C9B627800DD3A23 /* ViewController.h */,
-				85103F8E1C9B627800DD3A23 /* ViewController.m */,
-				85103F901C9B627800DD3A23 /* Main.storyboard */,
 				85103F931C9B627800DD3A23 /* Assets.xcassets */,
-				85103F951C9B627800DD3A23 /* LaunchScreen.storyboard */,
 				85103F981C9B627800DD3A23 /* Info.plist */,
 				85103F871C9B627800DD3A23 /* Supporting Files */,
 			);
@@ -140,6 +173,42 @@
 			path = TriggerpalUITests;
 			sourceTree = "<group>";
 		};
+		85103FBA1C9B62A000DD3A23 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				85103FBB1C9B68D500DD3A23 /* TPLHomeViewController.h */,
+				85103FBC1C9B68D500DD3A23 /* TPLHomeViewController.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		85103FBE1C9B711900DD3A23 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				85103FBF1C9B714900DD3A23 /* TPLHeaderSearchView.h */,
+				85103FC01C9B714900DD3A23 /* TPLHeaderSearchView.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		85103FC21C9B718A00DD3A23 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				85103FC61C9B73E600DD3A23 /* TPLColors.h */,
+			);
+			name = Constants;
+			sourceTree = "<group>";
+		};
+		85103FC91C9B7D1800DD3A23 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				85103FCB1C9B7D3A00DD3A23 /* Edmondsans-Medium.otf */,
+				85103FCC1C9B7D3A00DD3A23 /* Edmondsans-Bold.otf */,
+				85103FCD1C9B7D3A00DD3A23 /* Edmondsans-Regular.otf */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -147,9 +216,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 85103FB11C9B627800DD3A23 /* Build configuration list for PBXNativeTarget "Triggerpal" */;
 			buildPhases = (
+				BFA20FEF9BBDFB3D8C9879B0 /* Check Pods Manifest.lock */,
 				85103F801C9B627800DD3A23 /* Sources */,
 				85103F811C9B627800DD3A23 /* Frameworks */,
 				85103F821C9B627800DD3A23 /* Resources */,
+				36CF39A5B2D038E5E2884347 /* Embed Pods Frameworks */,
+				3FBDD362994477A9DCE15EF8 /* Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -243,9 +315,11 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85103F971C9B627800DD3A23 /* LaunchScreen.storyboard in Resources */,
+				85103FD01C9B7D3A00DD3A23 /* Edmondsans-Bold.otf in Resources */,
 				85103F941C9B627800DD3A23 /* Assets.xcassets in Resources */,
-				85103F921C9B627800DD3A23 /* Main.storyboard in Resources */,
+				85103FD11C9B7D3A00DD3A23 /* Edmondsans-Regular.otf in Resources */,
+				85103FCF1C9B7D3A00DD3A23 /* Edmondsans-Medium.otf in Resources */,
+				85103FC81C9B7C0E00DD3A23 /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -265,13 +339,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		36CF39A5B2D038E5E2884347 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Triggerpal/Pods-Triggerpal-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		3FBDD362994477A9DCE15EF8 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Triggerpal/Pods-Triggerpal-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BFA20FEF9BBDFB3D8C9879B0 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		85103F801C9B627800DD3A23 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				85103F8F1C9B627800DD3A23 /* ViewController.m in Sources */,
 				85103F8C1C9B627800DD3A23 /* AppDelegate.m in Sources */,
+				85103FBD1C9B68D500DD3A23 /* TPLHomeViewController.m in Sources */,
+				85103FC11C9B714900DD3A23 /* TPLHeaderSearchView.m in Sources */,
 				85103F891C9B627800DD3A23 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -306,25 +429,6 @@
 			targetProxy = 85103FA91C9B627800DD3A23 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		85103F901C9B627800DD3A23 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				85103F911C9B627800DD3A23 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		85103F951C9B627800DD3A23 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				85103F961C9B627800DD3A23 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		85103FAF1C9B627800DD3A23 /* Debug */ = {
@@ -411,6 +515,7 @@
 		};
 		85103FB21C9B627800DD3A23 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = E8299BFA2182269151160A4E /* Pods-Triggerpal.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Triggerpal/Info.plist;
@@ -422,6 +527,7 @@
 		};
 		85103FB31C9B627800DD3A23 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 91FC33FBD3196CE6F14E6ED8 /* Pods-Triggerpal.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = Triggerpal/Info.plist;
@@ -498,6 +604,7 @@
 				85103FB31C9B627800DD3A23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85103FB41C9B627800DD3A23 /* Build configuration list for PBXNativeTarget "TriggerpalTests" */ = {
 			isa = XCConfigurationList;
@@ -506,6 +613,7 @@
 				85103FB61C9B627800DD3A23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		85103FB71C9B627800DD3A23 /* Build configuration list for PBXNativeTarget "TriggerpalUITests" */ = {
 			isa = XCConfigurationList;
@@ -514,6 +622,7 @@
 				85103FB91C9B627800DD3A23 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
